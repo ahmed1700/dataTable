@@ -1,0 +1,11 @@
+<mat-nav-list>
+
+  <a mat-list-item *ngFor="let source of mySoucres" (click)="onSidenavClose()">
+
+    <img src="../assets/images/{{source.id}}.png" width="20" height="20"> 
+
+    <span> {{source.name}}</span>
+
+  </a>
+
+</mat-nav-list>

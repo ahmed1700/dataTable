@@ -1,0 +1,10 @@
+<h1 mat-dialog-title>Add User Info</h1>
+<div mat-dialog-content>
+    <mat-radio-group [(ngModel)]="gender">
+        <mat-radio-button value="male">Male</mat-radio-button>
+        <mat-radio-button value="female">Female</mat-radio-button>
+      </mat-radio-group>
+</div>
+<div mat-dialog-actions>
+  <button mat-raised-button [mat-dialog-close]="gender" color="accent">Save</button>
+</div>
